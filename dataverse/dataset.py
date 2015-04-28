@@ -341,4 +341,4 @@ class Dataset(object):
 
         self.get_statement(refresh=True)
         self.get_entry(refresh=True)
-        self.get_metadata('latest', refresh=True)
+        self.get_metadata(refresh=True)
